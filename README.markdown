@@ -36,7 +36,7 @@ Or, better yet, play with this code, modify it to hit some other open API like
 Todo
 ----
 
-* Rewrite application controller api call method
+* Rewrite application controller api call method, which is really hacky.
 
 License
 -------
