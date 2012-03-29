@@ -1,0 +1,19 @@
+<div id="offers">
+	<div class="full_page">
+	  <h1>All Current Offers</h1>
+	
+	  <form action="/offers/" method="GET">
+	    <label for="offer_id">Jump to offer #</label>
+	    <input id="offer_id" placeholder="Offer ID" name="offer_id" />
+	    <button type="submit">Go</button>
+	  </form>
+	</div>
+	
+	<div class="offer_grid">
+	  {{# offers }}
+	    {{> offer_info }}
+	  {{/ offers }}
+  </div>
+</div>
+
+
