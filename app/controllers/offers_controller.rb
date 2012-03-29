@@ -2,7 +2,7 @@ class OffersController < ApplicationController
   respond_to :html
 
   def index
-    @offers = api_call("deals", { :limit => limit })
+    @offers = api_call("deals")
   end
 
   def show
