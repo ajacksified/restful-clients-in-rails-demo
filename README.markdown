@@ -33,6 +33,11 @@ JSON with a format such as the following:
 Or, better yet, play with this code, modify it to hit some other open API like
 [Twitter](https://dev.twitter.com/docs/api/1/get/search) and build something.
 
+Todo
+----
+
+* Rewrite application controller api call method
+
 License
 -------
 
