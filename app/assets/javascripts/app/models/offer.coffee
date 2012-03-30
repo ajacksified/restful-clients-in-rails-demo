@@ -8,5 +8,4 @@ class App.Collections.OffersCollection extends Backbone.Collection
   url: '/api/deals'
 
   parse: (res) ->
-    console.log res
     res.response_data

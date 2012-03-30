@@ -19,7 +19,7 @@ class App.Routers.Router extends Backbone.Router
 
   show: (id) ->
     offers = new App.Collections.OffersCollection()
-    offer = new App.Models.Offer({ id: id });
+    offer = new App.Models.Offer({ id: id })
     offers.add(offer)
 
     @view = new App.Views.Offers.ShowView(model: offer, el: $("#content"))
