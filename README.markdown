@@ -13,6 +13,10 @@ Note the configuration in config/initializers/hogan\_assets and
 config/initializers/stache. These need to match each other so that they can
 point to each other's mustache views for client delivery and rendering.
 
+Optionally, if you just want to check out the mustache / backbone / rails stuff
+and not the API, stub out the two calls to api\_call in offers\_controller and
+return formatted JSON (as defined in the next section.)
+
 Endpoint Notes
 --------------
 
