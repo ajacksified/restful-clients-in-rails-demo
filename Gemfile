@@ -15,6 +15,8 @@ group :development do
   gem 'pry'
   gem 'pry-doc'
   gem 'pry-rails'
+  gem 'jasmine'
+  gem 'jasminerice'
 end
 
 # Gems used only for assets and not required
